@@ -1,5 +1,7 @@
 # Todo App (Node + MongoDB + React)
 
+for jenkins
+
 ## Prerequisites
 - Node.js (v16+ recommended)
 - MongoDB running locally or an Atlas connection string
