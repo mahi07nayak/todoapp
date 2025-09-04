@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000" # or your backend port
     environment:
-      - MONGO_URL=${MONGO_URL} 
+      - MONGODB_URI=${MONGODB_URI} 
    
 
   front:
