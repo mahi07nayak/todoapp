@@ -4,7 +4,8 @@ FROM node:16-alpine
 WORKDIR /app
 
 # Copy package.json and package-lock.json
-COPY package*.json ./
+COPY todoapp/package*.json ./
+
 
 # Install dependencies
 RUN npm install
