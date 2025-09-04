@@ -2,7 +2,10 @@
 import axios from 'axios';
 
 // Base URL of backend API
-const API_URL = 'http://localhost:5000/api/todos';
+// const API_URL = 'http://localhost:5000/api/todos';// this is for normal test
+
+const API_URL ='http://backend:5000/api/todos';
+
 
 // 📌 Get all todos
 export const getTodos = () => axios.get(API_URL);
