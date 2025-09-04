@@ -3,9 +3,14 @@ import axios from 'axios';
 require('dotenv').config();
 
 
-// Base URL of backend API
-const API_URL = 'http://localhost:5000/api/todos';
+// Base URL of backend
+// const API_URL = 'http://localhost:5000/api/todos';// this is for normal test
 
+// const API_URL ='http://backend:5000/api/todos';
+const API_URL=process.env.REACT_APP_API_URL
+
+// const API_URL = 'http://localhost:5000/api/todos';
+// const API_URL ='http://backend:5000/api/todos';//for jenkins i using this
 // 📌 Get all todos
 export const getTodos = () => axios.get(API_URL);
 
