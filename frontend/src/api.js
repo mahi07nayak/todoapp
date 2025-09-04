@@ -1,6 +1,5 @@
 // Import axios to make HTTP requests
 import axios from 'axios';
-require('dotenv').config();
 
 
 // Base URL of backend
