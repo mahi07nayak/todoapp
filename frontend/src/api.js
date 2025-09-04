@@ -1,10 +1,13 @@
 // Import axios to make HTTP requests
 import axios from 'axios';
+require('dotenv').config();
+
 
 // Base URL of backend API
 // const API_URL = 'http://localhost:5000/api/todos';// this is for normal test
 
-const API_URL ='http://backend:5000/api/todos';
+// const API_URL ='http://backend:5000/api/todos';
+const API_URL=process.env.REACT_APP_API_URL
 
 
 // 📌 Get all todos
