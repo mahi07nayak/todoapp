@@ -11,7 +11,7 @@ services:
       - mongo
 
   front:
-    build: ./front
+    build: ./frontend
     ports:
       - "3000:3000"  # React default dev port
     depends_on:
